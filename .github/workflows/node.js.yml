@@ -10,7 +10,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  Teste:
+  Testes:
 
     runs-on: ubuntu-latest
 
@@ -35,7 +35,7 @@ jobs:
         name: test-report
         path: ./test-report.html
 
-  E-mail:
+  Notificacao:
 
     runs-on: ubuntu-latest
 

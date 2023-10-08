@@ -1,2 +1,4 @@
+[![CI Testes](https://github.com/alex-breis/Trab_S107_CI_CD/actions/workflows/node.js.yml/badge.svg)](https://github.com/alex-breis/Trab_S107_CI_CD/actions/workflows/node.js.yml)
+
 # Trab_S107_CI_CD
 Repositório para o trabalho prático de S107 sobre CI/CD
