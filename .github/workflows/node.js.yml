@@ -34,3 +34,15 @@ jobs:
       with:
         name: test-report
         path: ./test-report.html
+
+  E-mail:
+
+    runs-on: ubuntu-latest
+
+    env:
+      EMAIL_LIST: alex10srs@hotmail.com
+
+    steps:
+    - name: Envia E-mail
+      uses: actions/checkout@v3
+    - run: sh scripts/shell.sh
