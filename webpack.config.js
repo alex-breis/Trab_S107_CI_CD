@@ -1,5 +1,5 @@
 // Import path for resolving file paths
-var path = require('./src');
+var path = require('src/');
 module.exports = {
   // Specify the entry point for our app.
   entry: [
