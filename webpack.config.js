@@ -1,9 +1,9 @@
 // Import path for resolving file paths
-var path = require('src/');
+var path = require('path');
 module.exports = {
   // Specify the entry point for our app.
   entry: [
-    path.join(__dirname, 'load_json.js')
+    path.join(__dirname, './src/load_json.js')
   ],
   // Specify the output file containing our bundled code
   output: {
@@ -17,10 +17,10 @@ module.exports = {
       * where a 'json' file is being imported, it will use
       * the json-loader.  
       */
-    loaders: [
+    rules: [
       {
         test: /\.json$/, 
-        loaders: ['json']
+        use: ['json']
       }
     ]
   }

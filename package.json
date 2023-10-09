@@ -1,4 +1,9 @@
 {
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  },
   "name": "trabalho_c214_testes_unitarios",
   "version": "1.0.0",
   "description": "",
