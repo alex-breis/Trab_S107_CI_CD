@@ -35,6 +35,22 @@ jobs:
         name: test-report
         path: ./test-report.html
 
+  Empacotar:
+    needs: test
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build
+      run: npm run build
+
+    - name: Upload de artefatos
+      uses: actions/upload-artifact@v3
+      with:
+        name: pack
+        path: app.js
+
+
   Notificacao:
 
     runs-on: ubuntu-latest
