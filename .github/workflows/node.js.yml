@@ -36,7 +36,7 @@ jobs:
         path: ./test-report.html
 
   Empacotar:
-    needs: test
+    needs: Testes
     runs-on: ubuntu-latest
 
     steps:
