@@ -3,7 +3,7 @@ var path = require('path');
 module.exports = {
   // Specify the entry point for our app.
   entry: [
-    path.join(__dirname, './src/load_json.js')
+    path.join(__dirname, './src/horarios_professor.js')
   ],
   // Specify the output file containing our bundled code
   output: {
